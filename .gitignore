@@ -1,7 +1,7 @@
 # Ignore raw and processed data
-data/raw/
-data/processed/
-data/.cache/
+data/*
+!data/*.dvc
+!data/**/*.dvc
 
 # Ignore DVC cache files (tracked automatically)
 .dvc/tmp/
